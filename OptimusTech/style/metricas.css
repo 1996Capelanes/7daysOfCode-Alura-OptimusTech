@@ -1,0 +1,30 @@
+.metricas__itens{
+    display: flex;
+    padding: 4em;
+}
+
+
+.metricas__container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+}
+
+.metrica__valor{
+    color: var(--vermelho-principal);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.metricas__titulo{
+    color: var(--preto-principal);
+    font-size: 18px;
+    margin: 10px 0 8px 0;
+}
+
+.metricas__texto{
+    color: var(--cinza-principal);
+    font-weight: 400;
+    
+}

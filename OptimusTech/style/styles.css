@@ -1,0 +1,24 @@
+@import url(header.css);
+@import url(cabecalho.css);
+@import url(metricas.css);
+@import url(vagas.css);
+@import url(depoimento.css);
+@import url(forms.css);
+
+:root{
+    --branco:  #FFFFFF;
+    --vermelho-principal: #8E2424;
+    --preto-principal: #101828;
+    --fonte-principal: 'Inter';
+    --cinza-principal: #667085;
+    --cinza-secundario: #3A404E;
+    --cinza-borda: #EAECF0;
+}
+
+
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+}

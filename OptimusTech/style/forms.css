@@ -1,0 +1,55 @@
+.container__forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F9FAFB;
+    margin-top: 3em;
+}
+
+.forms__titulo{
+    font-weight: 600;
+    font-size: 36px;
+    margin: 1em;
+
+}
+
+.forms__texto{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-principal);
+    padding: 1em;
+
+}
+
+.campo__email{
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+    width: 300px;
+}
+
+.campo__email::placeholder{
+    font-family: 'inter';
+    font-weight: 400;
+    padding: 5px;
+}
+
+.botao__email{
+    background: var(--vermelho-principal);
+    color: var(--branco);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    margin: 0.5em;
+}
+
+.campo__cadastro{
+    padding: 1em;
+}
+
+.footer__texto{
+    color: var(--cinza-principal);
+    font-weight: 400;
+    padding: 1em;
+    margin: 10px 0 30px 0;
+}

@@ -1,0 +1,39 @@
+.navebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.logo__menu{
+    display: flex;
+    align-items: flex-start;
+}
+
+.nome__empresa{
+    color: var(--cinza-secundario);
+    font-size: 18px;
+    margin: 0.5em;
+}
+
+.menu__nav{
+    padding-left: 50px;
+}
+
+.menu__link,
+.login__link{
+    text-decoration: none;
+    margin-left: 1em;
+    color: var(--cinza-principal);
+}
+
+.login__cadastro{
+    color: var(--branco);
+    background-color: var(--vermelho-principal);
+    padding: 0.5em;
+    border-radius: 5px;
+
+}
+
+
+
